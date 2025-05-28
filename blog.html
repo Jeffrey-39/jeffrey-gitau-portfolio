@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Jeffrey Gitau Irungu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jeffrey Gitau Irungu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog-section">
+        <div class="container">
+            <h2>My Blog</h2>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-post">
+                    <img src="images/blog1.jpg" alt="Blog Post 1">
+                    <div class="blog-content">
+                        <h3>Getting Started with Flutter Development</h3>
+                        <p class="blog-meta">Posted on June 15, 2023 | 5 min read</p>
+                        <p>Learn the basics of Flutter development and how to create your first cross-platform mobile application...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                
+                <!-- Blog Post 2 -->
+                <article class="blog-post">
+                    <img src="images/blog2.jpg" alt="Blog Post 2">
+                    <div class="blog-content">
+                        <h3>Python Flask: Building Web Applications</h3>
+                        <p class="blog-meta">Posted on May 28, 2023 | 8 min read</p>
+                        <p>A comprehensive guide to building web applications using Python's Flask framework with practical examples...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                
+                <!-- Blog Post 3 -->
+                <article class="blog-post">
+                    <img src="images/blog3.jpg" alt="Blog Post 3">
+                    <div class="blog-content">
+                        <h3>JavaScript ES6+ Features You Should Know</h3>
+                        <p class="blog-meta">Posted on April 10, 2023 | 6 min read</p>
+                        <p>Explore the modern JavaScript features that will make your code cleaner and more efficient...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+                
+                <!-- Blog Post 4 -->
+                <article class="blog-post">
+                    <img src="images/blog4.jpg" alt="Blog Post 4">
+                    <div class="blog-content">
+                        <h3>Database Design Best Practices</h3>
+                        <p class="blog-meta">Posted on March 22, 2023 | 10 min read</p>
+                        <p>Key principles and best practices for designing efficient and scalable database structures...</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="add-blog">
+                <h3>Add New Blog Post</h3>
+                <form id="blog-form">
+                    <input type="text" placeholder="Blog Title" required>
+                    <input type="date" required>
+                    <input type="text" placeholder="Reading Time (e.g., 5 min read)" required>
+                    <textarea placeholder="Blog Content" required></textarea>
+                    <input type="file" accept="image/*" required>
+                    <button type="submit" class="btn">Publish Post</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+               <a href="https://github.com/Jeffrey-39"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jeff-jay-4b2027262/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Jeffrey Gitau Irungu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

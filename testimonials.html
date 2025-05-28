@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Jeffrey Gitau Irungu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jeffrey Gitau Irungu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="testimonials.html" class="active">Testimonials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>What People Say About My Work</h2>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Jeffrey delivered our e-commerce platform ahead of schedule. His attention to detail and problem-solving skills are exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/client1.jpg" alt="Client 1">
+                        <h4>John Mwangi</h4>
+                        <p>CEO, TechSolutions Ltd</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The mobile app Jeffrey developed for our business has significantly improved our customer engagement. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/client2.jpg" alt="Client 2">
+                        <h4>Sarah Johnson</h4>
+                        <p>Director, RetailPlus</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working with Jeffrey was a pleasure. He understood our requirements perfectly and delivered beyond our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/client3.jpg" alt="Client 3">
+                        <h4>David Omondi</h4>
+                        <p>CTO, FinTech Innovations</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="add-testimonial">
+                <h3>Add New Testimonial</h3>
+                <form id="testimonial-form">
+                    <textarea placeholder="Testimonial Content" required></textarea>
+                    <input type="text" placeholder="Client Name" required>
+                    <input type="text" placeholder="Client Position" required>
+                    <input type="text" placeholder="Company Name">
+                    <input type="file" accept="image/*" required>
+                    <button type="submit" class="btn">Add Testimonial</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Jeffrey-39"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jeff-jay-4b2027262/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Jeffrey Gitau Irungu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
